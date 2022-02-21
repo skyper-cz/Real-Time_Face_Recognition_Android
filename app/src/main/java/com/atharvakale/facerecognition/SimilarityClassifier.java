@@ -32,8 +32,7 @@ public interface SimilarityClassifier {
     private final Float distance;
     private Object extra;
 
-    public Recognition(
-            final String id, final String title, final Float distance) {
+    public Recognition(final String id, final String title, final Float distance) {
       this.id = id;
       this.title = title;
       this.distance = distance;
